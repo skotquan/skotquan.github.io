@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Summer of Love '22</title>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
@@ -38,11 +39,11 @@
           scale="0.5 0.5 0.5"
           gltf-model="#heart"
           position="0 1.3 0"
-          animation="property: rotation; 
-            to: 0 360 0; 
-            loop: true; 
+          animation="property: rotation;
+            to: 0 360 0;
+            loop: true;
             dur: 7000;
-            easing: linear; 
+            easing: linear;
             repeat: indefinite"
         >
         </a-entity>
@@ -50,5 +51,6 @@
 
       <a-entity camera></a-entity>
     </a-scene>
+
   </body>
 </html>
